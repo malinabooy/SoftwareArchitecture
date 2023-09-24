@@ -1,13 +1,13 @@
 package Sem1.ModelElements;
 
-public class Camera {
-    private Point3D location;
-    private Angle3D angle;
+import Sem1.Staff.Angle3D;
+import Sem1.Staff.Point3D;
 
-    public Camera(Point3D location, Angle3D angle){
-        this.location = location;
-        this.angle = angle;
-    }
+public class Camera {
+    public Point3D location;
+    public Angle3D angle;
+
+
     public void rotate(Angle3D grad){
 
     }
