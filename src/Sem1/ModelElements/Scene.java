@@ -8,6 +8,8 @@ public class Scene {
     ArrayList<PoligonalModel> models = new ArrayList<>();
     ArrayList<Flash> flashes = new ArrayList<>();
 
+    ArrayList<Camera> cameras = new ArrayList<>();
+
     public static Scene get(int nScene) {
         return null;
     }
