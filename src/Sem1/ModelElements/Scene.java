@@ -7,9 +7,15 @@ public class Scene {
     int id;
     ArrayList<PoligonalModel> models = new ArrayList<>();
     ArrayList<Flash> flashes = new ArrayList<>();
-
     ArrayList<Camera> cameras = new ArrayList<>();
 
+    public  Scene(int id, ArrayList<PoligonalModel> models,
+                  ArrayList<Flash> flashes, ArrayList<Camera> cameras) throws Exception{
+        this.id = id;
+        this.models = models;
+        this.cameras = cameras;
+        this.flashes = flashes;
+    }
     public static Scene get(int nScene) {
         return null;
     }
